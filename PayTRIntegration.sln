@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DFDA8079-D8C3-4F18-8EEC-0D28459497C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayTRIntegration.API", "src\PayTRIntegration.API\PayTRIntegration.API.csproj", "{50552751-D1C7-4DE4-910F-938570663376}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50552751-D1C7-4DE4-910F-938570663376} = {DFDA8079-D8C3-4F18-8EEC-0D28459497C9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50552751-D1C7-4DE4-910F-938570663376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50552751-D1C7-4DE4-910F-938570663376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50552751-D1C7-4DE4-910F-938570663376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50552751-D1C7-4DE4-910F-938570663376}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
