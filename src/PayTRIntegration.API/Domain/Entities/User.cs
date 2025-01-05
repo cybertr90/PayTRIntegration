@@ -10,5 +10,6 @@ public sealed class User : EntityBase
     public string? ExternalUserId { get; set; }
     public string Email { get; set; }
     public FullName FullName { get; set; }
+    public PhoneNumber PhoneNumber { get; set; }
     public ICollection<Order> Orders { get; set; } = [];
 }

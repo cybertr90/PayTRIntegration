@@ -1,6 +1,6 @@
 namespace PayTRIntegration.API.Domain.Enums;
 
-public enum PaymentStatus
+public enum OrderStatus
 {
     Pending=1,
     Completed=2,
